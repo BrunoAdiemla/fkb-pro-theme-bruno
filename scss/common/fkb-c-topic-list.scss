@@ -18,7 +18,7 @@
   .topic-list-main-link a.title,
   .topic-list .main-link a.title,
   .latest-topic-list-item .main-link a.title {
-    color: var(--tertiary);
+    color: #4c4c4b;
   } 
   
   .topic-list {
@@ -116,7 +116,7 @@
               .username {
                 font-size: var(--font-down-2);
                 font-weight: normal;
-                color: var(--primary-high-or-secondary-low);
+                color: #7a848b;
               }
               .list-date {
                 font-size: var(--font-down-3);
@@ -133,9 +133,9 @@
         }
         .title {
           font-size: var(--font-up-3-rem);
-          color: var(--tertiary);
+          color: #4c4c4b;
           line-height: var(--line-height-medium);
-          margin-bottom: 0.5em;
+          margin-bottom: 1.5em;
           padding: 0.25em 0;
           &:hover {
             text-decoration: underline;
@@ -161,7 +161,7 @@
           }
           .topic-excerpt-link {
             color: var(--primary);
-            margin: 0.5em 0 1em 0;
+            margin: 0.5em 0 2em 0;
             line-height: var(--line-height-large);
             @include fkb-word-wrap;
           }
