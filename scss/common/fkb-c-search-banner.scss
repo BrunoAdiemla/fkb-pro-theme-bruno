@@ -2,6 +2,11 @@
   .search-input {
     input#search-term[type=text] {
       box-shadow: none;
+
+      &:focus {
+        outline: none;
+        box-shadow: none;
+      }
     }
   }
   .results {
