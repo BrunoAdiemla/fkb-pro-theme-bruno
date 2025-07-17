@@ -18,7 +18,7 @@
     &:focus-within {
       outline: none;
       border-radius: var(--d-input-border-radius);
-      box-shadow: 0px 0px 0px 1px var(--tertiary);
+      box-shadow: none;
     }
     input#search-term {
       border-radius: var(--d-input-border-radius);
