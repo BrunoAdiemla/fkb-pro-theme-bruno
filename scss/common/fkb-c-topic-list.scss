@@ -236,7 +236,7 @@
           content: "";
           width: 100%;
           height: 1px;
-          background-color: var(--primary-low);
+          background-color: #D89CF6; /*var(--primary-low);*/
           display: inline-block;
           position: relative;
         }
@@ -281,7 +281,7 @@
   .topic-list-item.visited a.title:not(.badge-notification),
   .latest-topic-list-item.visited a.title:not(.badge-notification),
   .category-topic-link.visited a.title:not(.badge-notification) {
-    color: var(--primary);
+    color: #FA7D09; /*var(--primary);*/
     font-weight: 500;
   }
   
@@ -337,6 +337,7 @@
 
 @if $disable-topic-list-modification == "true" {
   .topic-list {
+    background: #FA7D09;
     .topic-list-item-separator {
       .topic-list-data {
         border-top: 1px solid var(--tertiary);
