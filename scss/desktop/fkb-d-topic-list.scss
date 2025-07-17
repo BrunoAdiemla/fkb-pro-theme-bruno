@@ -138,6 +138,7 @@ body[class*="category-"]:not(.archetype-regular):not(.archetype-banner) {
   }
 
   .list-container {
+    background: #f6c3e5;
     grid-area: topic-list;
     @media (max-width: 1099px) {
       padding: 0;
