@@ -18,12 +18,12 @@
   .topic-list-main-link a.title,
   .topic-list .main-link a.title,
   .latest-topic-list-item .main-link a.title {
-    color: #4c4c4b;
+    color: #12CAD6; /*MUDAR*/
   } 
   
   .topic-list {
+    background: #4C4C4B; /*EXCLUIR DEPOIS*/
     .topic-list-body {
-      background: #4C4C4B; /*EXCLUIR DEPOIS*/
       display: block;
       border: none;
     }
