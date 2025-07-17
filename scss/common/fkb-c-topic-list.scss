@@ -23,7 +23,7 @@
   
   .topic-list {
     .topic-list-body {
-      background-color: #4C4C4B; /*EXCLUIR DEPOIS*/
+      background: #4C4C4B; /*EXCLUIR DEPOIS*/
       display: block;
       border: none;
     }
@@ -116,7 +116,7 @@
               .username {
                 font-size: var(--font-down-2);
                 font-weight: normal;
-                color: #7a848b;
+                color: #12CAD6; /*MUDAR*/
               }
               .list-date {
                 font-size: var(--font-down-3);
