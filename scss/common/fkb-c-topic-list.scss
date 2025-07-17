@@ -111,12 +111,12 @@
               .full-name-tlist {
                 font-size: var(--font-down-1);
                 font-weight: bold;
-                color: #12CAD6;                          /*var(--primary);*/
+                color: var(--primary);
               }
               .username {
                 font-size: var(--font-down-2);
                 font-weight: normal;
-                color: #12CAD6; /*MUDAR*/
+                color: var(--primary); /*MUDAR*/
               }
               .list-date {
                 font-size: var(--font-down-3);
