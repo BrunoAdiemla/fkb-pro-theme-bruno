@@ -139,7 +139,6 @@ body[class*="category-"]:not(.archetype-regular):not(.archetype-banner) {
 
   .list-container {
     grid-area: topic-list;
-    background: var(--tertiary); /*MUDAR DEPOIS*/
     @media (max-width: 1099px) {
       padding: 0;
     }
