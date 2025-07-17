@@ -22,8 +22,8 @@
   } 
   
   .topic-list {
-    background-color: #f0f2f5;
     .topic-list-body {
+      background-color: #4C4C4B; /*EXCLUIR DEPOIS*/
       display: block;
       border: none;
     }
@@ -236,7 +236,7 @@
           content: "";
           width: 100%;
           height: 1px;
-          background-color: #D89CF6; /*var(--primary-low);*/
+          background-color: var(--primary-low);
           display: inline-block;
           position: relative;
         }
@@ -281,7 +281,7 @@
   .topic-list-item.visited a.title:not(.badge-notification),
   .latest-topic-list-item.visited a.title:not(.badge-notification),
   .category-topic-link.visited a.title:not(.badge-notification) {
-    color: #FA7D09; /*var(--primary);*/
+    color: var(--primary);
     font-weight: 500;
   }
   
