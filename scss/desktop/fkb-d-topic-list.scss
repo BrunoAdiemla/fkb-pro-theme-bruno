@@ -40,7 +40,7 @@ body[class*="category-"]:not(.archetype-regular):not(.archetype-banner) {
         #create-topic {
           color: var(--secondary);
           border: 2px solid var(--tertiary);
-          background: #F6C3E5; /*var(--tertiary);*/
+          background: var(--tertiary);
           border-radius: var(--d-button-border-radius);
           transition: background 0.25s ease-out;
           &:hover,
@@ -139,6 +139,7 @@ body[class*="category-"]:not(.archetype-regular):not(.archetype-banner) {
 
   .list-container {
     grid-area: topic-list;
+    background: var(--tertiary); /*MUDAR DEPOIS*/
     @media (max-width: 1099px) {
       padding: 0;
     }
@@ -183,7 +184,7 @@ body[class*="category-"]:not(.archetype-regular):not(.archetype-banner) {
         height: 45px;
         color: var(--secondary);
         border: 2px solid var(--tertiary);
-        background: #FE9801; /*var(--tertiary);*/
+        background: var(--tertiary);
         border-radius: var(--d-button-border-radius);
         transition: background 0.25s ease-out;
         .d-icon {
